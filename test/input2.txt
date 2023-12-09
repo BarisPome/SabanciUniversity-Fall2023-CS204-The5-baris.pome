@@ -1,0 +1,100 @@
+push vecStringInt 1 Hello
+push vecStringInt 2 World
+push vecStringInt 3 I
+push vecStringInt 18 Am
+push vecStringInt 24 A
+push vecStringInt 32 Computer
+push vecStringInt 33 program.
+push vecStringInt 34 Computer
+push vecStringInt 36 is
+push vecStringInt 75 a
+push vecStringInt 99 cool
+push vecStringInt 132 invention.
+print_vector vecStringInt
+process_data vecStringInt
+copy vecStringInt vecStringInt2
+check_equal vecStringInt vecStringInt2
+find vecStringInt 3
+find vecStringInt 200
+remove vecStringInt 3
+print_vector vecStringInt
+replace_value vecStringInt 2 ChangedWorld
+print_vector vecStringInt
+replace_key vecStringInt 2 202
+print_vector vecStringInt
+process_data vecStringInt
+check_equal vecStringInt vecStringInt2
+
+push vecDoubleDouble 1.1 11.1
+push vecDoubleDouble 2.2 22.2
+push vecDoubleDouble 2.4 22.3
+push vecDoubleDouble 2.6 342.0
+push vecDoubleDouble 3.2 21.4
+push vecDoubleDouble 24.2 20.3
+push vecDoubleDouble 25.2 21.2
+push vecDoubleDouble 25.3 100.0
+push vecDoubleDouble 25.4 200.0
+print_vector vecDoubleDouble
+process_data vecDoubleDouble
+copy vecDoubleDouble vecDoubleDouble2
+check_equal vecDoubleDouble vecDoubleDouble2
+find vecDoubleDouble 2.4
+remove vecDoubleDouble 2.4
+print_vector vecDoubleDouble
+replace_value vecDoubleDouble 25.2 999.99
+print_vector vecDoubleDouble
+replace_key vecDoubleDouble 25.2 252
+print_vector vecDoubleDouble
+process_data vecDoubleDouble
+check_equal vecDoubleDouble vecDoubleDouble2
+
+
+push vecIntString key1 100
+push vecIntString key2 200
+push vecIntString key3 300
+push vecIntString key4 400
+push vecIntString key5 500
+push vecIntString key6 600
+push vecIntString key7 700
+push vecIntString key8 800
+push vecIntString key9 900
+push vecIntString key10 1000
+print_vector vecIntString
+process_data vecIntString
+copy vecIntString vecIntString2
+check_equal vecIntString vecIntString2
+find vecIntString key3
+remove vecIntString key3
+print_vector vecIntString
+replace_value vecIntString key2 222
+print_vector vecIntString
+replace_key vecIntString key2 key202
+print_vector vecIntString
+process_data vecIntString
+check_equal vecIntString vecIntString2
+
+push vecDoubleString key1 1.4
+push vecDoubleString key2 2.4
+push vecDoubleString key3 3.5
+push vecDoubleString key4 4.6
+push vecDoubleString key5 5.6
+push vecDoubleString key6 6.7
+push vecDoubleString key7 7.7
+push vecDoubleString key8 8.8
+push vecDoubleString key9 9.8
+push vecDoubleString key10 10.9
+push vecDoubleString key11 11.11
+push vecDoubleString key12 12.12
+print_vector vecDoubleString
+process_data vecDoubleString
+copy vecDoubleString vecDoubleString2
+check_equal vecDoubleString vecDoubleString2
+find vecDoubleString key3
+remove vecDoubleString key3
+print_vector vecDoubleString
+replace_value vecDoubleString key2 24.24
+print_vector vecDoubleString
+replace_key vecDoubleString key2 key202
+print_vector vecDoubleString
+process_data vecDoubleString
+check_equal vecDoubleString vecDoubleString2

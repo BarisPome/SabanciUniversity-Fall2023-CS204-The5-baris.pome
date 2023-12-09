@@ -1,0 +1,120 @@
+Enter the filename: input1.txt
+
+Printing vecStringInt:
+Value: Hello, Key: 1
+Value: World, Key: 2
+Value: I, Key: 3
+Value: Am, Key: 18
+Value: A, Key: 24
+Value: Computer, Key: 32
+Value: program., Key: 33
+Value: Computer, Key: 34
+Value: is, Key: 36
+Value: a, Key: 75
+Value: cool, Key: 99
+Value: invention., Key: 132
+Processing data of vector vecStringInt:
+Most Frequent Character: 'o' (Frequency: 8)
+Most Frequent Word: "Computer" (Frequency: 2)
+
+Printing vecDoubleDouble:
+Value: 11.1, Key: 1.1
+Value: 22.2, Key: 2.2
+Value: 22.3, Key: 2.4
+Value: 342, Key: 2.6
+Value: 21.4, Key: 3.2
+Value: 20.3, Key: 24.2
+Value: 21.2, Key: 25.2
+Processing data of vector vecDoubleDouble:
+Mean: 65.7857
+Median: 21.4
+Standard Deviation: 112.823
+Max: 342
+Mode: 11.1
+
+Printing vecIntString:
+Value: 100, Key: key1
+Value: 200, Key: key2
+Value: 300, Key: key3
+Value: 400, Key: key4
+Value: 500, Key: key5
+Value: 600, Key: key6
+Value: 700, Key: key7
+Value: 800, Key: key8
+Value: 900, Key: key9
+Processing data of vector vecIntString:
+Mean: 500
+Median: 500
+Standard Deviation: 258.199
+Max: 900
+Mode: 100
+
+Printing vecDoubleString:
+Value: 1.4, Key: key1
+Value: 2.4, Key: key2
+Value: 3.5, Key: key3
+Value: 4.6, Key: key4
+Value: 5.6, Key: key5
+Value: 6.7, Key: key6
+Value: 7.7, Key: key7
+Value: 8.8, Key: key8
+Value: 9.8, Key: key9
+Value: 10.9, Key: key10
+Value: 11.11, Key: key11
+Processing data of vector vecDoubleString:
+Mean: 6.59182
+Median: 6.7
+Standard Deviation: 3.22518
+Max: 11.11
+Mode: 1.4
+
+Printing vecStringInt2:
+Value: Hello, Key: 1
+Value: World, Key: 2
+Value: I, Key: 3
+Value: Am, Key: 18
+Value: A, Key: 24
+Value: Computer, Key: 32
+Value: program., Key: 33
+Value: Computer, Key: 34
+Value: is, Key: 36
+Value: a, Key: 75
+Value: cool, Key: 99
+Value: invention., Key: 132
+
+Printing vecDoubleDouble2:
+Value: 11.1, Key: 1.1
+Value: 22.2, Key: 2.2
+Value: 22.3, Key: 2.4
+Value: 342, Key: 2.6
+Value: 21.4, Key: 3.2
+Value: 20.3, Key: 24.2
+Value: 21.2, Key: 25.2
+
+Printing vecIntString2:
+Value: 100, Key: key1
+Value: 200, Key: key2
+Value: 300, Key: key3
+Value: 400, Key: key4
+Value: 500, Key: key5
+Value: 600, Key: key6
+Value: 700, Key: key7
+Value: 800, Key: key8
+Value: 900, Key: key9
+
+Printing vecDoubleString2:
+Value: 1.4, Key: key1
+Value: 2.4, Key: key2
+Value: 3.5, Key: key3
+Value: 4.6, Key: key4
+Value: 5.6, Key: key5
+Value: 6.7, Key: key6
+Value: 7.7, Key: key7
+Value: 8.8, Key: key8
+Value: 9.8, Key: key9
+Value: 10.9, Key: key10
+Value: 11.11, Key: key11
+vecStringInt and vecStringInt2 are equal.
+vecDoubleDouble and vecDoubleDouble2 are equal.
+vecIntString and vecIntString2 are equal.
+vecDoubleString and vecDoubleString2 are equal.

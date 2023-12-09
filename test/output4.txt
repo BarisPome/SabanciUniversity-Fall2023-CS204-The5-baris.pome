@@ -1,0 +1,67 @@
+Enter the filename: input4.txt
+
+Printing vecIntString:
+Value: 100, Key: key1
+Value: 200, Key: key2
+Value: 300, Key: key3
+Value: 400, Key: key4
+Value: 500, Key: key5
+Value: 600, Key: key6
+Value: 700, Key: key7
+Value: 800, Key: key8
+Value: 900, Key: key9
+Processing data of vector vecIntString:
+Mean: 500
+Median: 500
+Standard Deviation: 258.199
+Max: 900
+Mode: 100
+
+Printing vecIntString2:
+Value: 100, Key: key1
+Value: 200, Key: key2
+Value: 300, Key: key3
+Value: 400, Key: key4
+Value: 500, Key: key5
+Value: 600, Key: key6
+Value: 700, Key: key7
+Value: 800, Key: key8
+Value: 900, Key: key9
+vecIntString and vecIntString2 are equal.
+Found: Key = key3, Value = 300
+Key not found: key200
+
+Printing vecIntString:
+Value: 100, Key: key1
+Value: 200, Key: key2
+Value: 444, Key: key4
+Value: 500, Key: key5
+Value: 600, Key: key6
+Value: 700, Key: key7
+Value: 800, Key: key8
+Value: 900, Key: key9
+Value: 1000, Key: key10
+Processing data of vector vecIntString:
+Mean: 582.667
+Median: 600
+Standard Deviation: 287.06
+Max: 1000
+Mode: 100
+
+Printing vecIntString:
+Value: 100, Key: key1
+Value: 200, Key: key20
+Value: 444, Key: key4
+Value: 555, Key: key5
+Value: 666, Key: key6
+Value: 700, Key: key7
+Value: 800, Key: key8
+Value: 900, Key: key9
+Value: 1000, Key: key10
+Processing data of vector vecIntString:
+Mean: 596.111
+Median: 666
+Standard Deviation: 286.857
+Max: 1000
+Mode: 100
+vecIntString and vecIntString2 are not equal.

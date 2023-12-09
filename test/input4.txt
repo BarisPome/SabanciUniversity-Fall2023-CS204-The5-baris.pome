@@ -1,0 +1,28 @@
+push vecIntString key1 100
+push vecIntString key2 200
+push vecIntString key3 300
+push vecIntString key4 400
+push vecIntString key5 500
+push vecIntString key6 600
+push vecIntString key7 700
+push vecIntString key8 800
+push vecIntString key9 900
+
+print_vector vecIntString
+process_data vecIntString
+copy vecIntString vecIntString2
+check_equal vecIntString vecIntString2
+
+find vecIntString key3
+find vecIntString key200
+remove vecIntString key3
+replace_value vecIntString key4 444
+push vecIntString key10 1000
+print_vector vecIntString
+process_data vecIntString
+replace_value vecIntString key5 555
+replace_value vecIntString key6 666
+replace_key vecIntString key2 key20
+print_vector vecIntString
+process_data vecIntString
+check_equal vecIntString vecIntString2

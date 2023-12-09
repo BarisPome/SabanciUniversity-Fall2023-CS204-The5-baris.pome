@@ -1,0 +1,71 @@
+Enter the filename: input3.txt
+
+Printing vecStringInt:
+Value: Hello, Key: 1
+Value: World, Key: 2
+Value: I, Key: 3
+Value: Am, Key: 18
+Value: A, Key: 24
+Value: Computer, Key: 32
+Value: program., Key: 33
+Value: Computer, Key: 34
+Value: is, Key: 36
+Value: a, Key: 75
+Value: cool, Key: 99
+Value: invention., Key: 132
+Processing data of vector vecStringInt:
+Most Frequent Character: 'o' (Frequency: 8)
+Most Frequent Word: "Computer" (Frequency: 2)
+
+Printing vecStringInt2:
+Value: Hello, Key: 1
+Value: World, Key: 2
+Value: I, Key: 3
+Value: Am, Key: 18
+Value: A, Key: 24
+Value: Computer, Key: 32
+Value: program., Key: 33
+Value: Computer, Key: 34
+Value: is, Key: 36
+Value: a, Key: 75
+Value: cool, Key: 99
+Value: invention., Key: 132
+vecStringInt and vecStringInt2 are equal.
+Found: Key = 3, Value = I
+Key not found: 200
+
+Printing vecStringInt:
+Value: Hello, Key: 1
+Value: World, Key: 2
+Value: Am, Key: 18
+Value: A, Key: 24
+Value: Computer, Key: 32
+Value: program., Key: 33
+Value: ananas, Key: 34
+Value: is, Key: 36
+Value: a, Key: 75
+Value: cool, Key: 99
+Value: invention., Key: 132
+Value: dodomo, Key: 137
+Processing data of vector vecStringInt:
+Most Frequent Character: 'o' (Frequency: 10)
+Most Frequent Word: "A" (Frequency: 1)
+Key not found for replacement: 35
+
+Printing vecStringInt:
+Value: Hello, Key: 1
+Value: World, Key: 202
+Value: Am, Key: 18
+Value: A, Key: 24
+Value: Computer, Key: 32
+Value: program., Key: 33
+Value: ananas, Key: 34
+Value: is, Key: 36
+Value: a, Key: 75
+Value: ananas, Key: 99
+Value: invention., Key: 132
+Value: dodomo, Key: 137
+Processing data of vector vecStringInt:
+Most Frequent Character: 'a' (Frequency: 8)
+Most Frequent Word: "ananas" (Frequency: 2)
+vecStringInt and vecStringInt2 are not equal.

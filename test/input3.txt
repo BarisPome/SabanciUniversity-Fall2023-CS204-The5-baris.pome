@@ -1,0 +1,31 @@
+push vecStringInt 1 Hello
+push vecStringInt 2 World
+push vecStringInt 3 I
+push vecStringInt 18 Am
+push vecStringInt 24 A
+push vecStringInt 32 Computer
+push vecStringInt 33 program.
+push vecStringInt 34 Computer
+push vecStringInt 36 is
+push vecStringInt 75 a
+push vecStringInt 99 cool
+push vecStringInt 132 invention.
+
+print_vector vecStringInt
+process_data vecStringInt
+copy vecStringInt vecStringInt2
+check_equal vecStringInt vecStringInt2
+
+find vecStringInt 3
+find vecStringInt 200
+remove vecStringInt 3
+replace_value vecStringInt 34 ananas
+push vecStringInt 137 dodomo
+print_vector vecStringInt
+process_data vecStringInt
+replace_value vecStringInt 35 ChangedWorld
+replace_value vecStringInt 99 ananas
+replace_key vecStringInt 2 202
+print_vector vecStringInt
+process_data vecStringInt
+check_equal vecStringInt vecStringInt2
